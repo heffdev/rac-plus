@@ -1,0 +1,33 @@
+  <!-- Start page: #NetOperatingIncome -->
+    
+
+        <div data-role="header" data-theme="b" data-close-btn="none">
+        	<a href="#home" data-rel="page" data-transition="fade" data-role="button" data-theme="b" data-icon="delete" data-iconpos="notext" data-inline="true" class="ui-btn-left">Close</a>
+            <h1>Net Operating Income</h1>
+            <a href="#NetOperatingIncomeHelp" data-rel="dialog" data-transition="flip" data-role="button" data-theme="b" data-icon="info" data-iconpos="notext" data-inline="true" class="ui-btn-right">Info</a>
+        </div><!-- /header -->
+
+        <div data-role="content" data-theme="c">
+			<form>
+				<label for="noiGrossScheduledIncome">Gross Scheduled Income:</label> <input type="number"
+					data-clear-btn="true" name="noiGrossScheduledIncome" pattern="[0-9]*"
+					id="noiGrossScheduledIncome" value="">
+				
+				<label for="noiVacancyAndCreditLoss">Estimated Vacancy &#38; Credit Loss &#37;:</label>
+    			<input type="range" name="noiVacancyAndCreditLoss" id="noiVacancyAndCreditLoss"  min="0.0" max="20.0" step="0.1" value="1.2" data-highlight="true" >
+				
+				<label for="noiOperatingExpenses">Operating Expenses:</label> <input type="number"
+					data-clear-btn="true" name="noiOperatingExpenses" pattern="[0-9]*"
+					id="noiOperatingExpenses" value="">
+					
+					
+			</form>
+			<h3 id="netOperatingIncomeResult"></h3>
+			<p>
+                <a href="#home" data-transition="fade" data-role="button"
+                    data-icon="check">Close</a>
+            </p>
+        </div><!-- /content -->
+
+
+    <!-- End page: #NetOperatingIncome -->

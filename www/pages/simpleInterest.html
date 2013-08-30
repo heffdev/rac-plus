@@ -1,0 +1,32 @@
+  <!-- Start page: #SimpleInterest -->
+    
+
+        <div data-role="header" data-theme="b">
+        <a href="#home" data-rel="page" data-transition="fade" data-role="button" data-theme="b" data-icon="delete" data-iconpos="notext" data-inline="true" class="ui-btn-left">Close</a>
+            <h1>Simple Interest</h1>
+            <a href="#SimpleInterestHelp" data-rel="dialog" data-transition="flip" data-role="button" data-theme="b" data-icon="info" data-iconpos="notext" data-inline="true" class="ui-btn-right">Info</a>
+        </div><!-- /header -->
+
+        <div data-role="content" data-theme="c">
+			<form>
+				<label for="simpleInterestPrinciple">Principle:</label> <input type="number"
+					data-clear-btn="true" name="simpleInterestPrinciple" pattern="[0-9]*"
+					id="simpleInterestPrinciple" value="">
+					
+					<label for="simpleInterestRate">Rate:</label>
+    				<input type="range" name="compoundInterestRate" id="simpleInterestRate"  min="0.00" max="20.00" step="0.01" value="5.01" data-highlight="true" >
+										
+					<label for="simpleInterestTime">Periods:</label>
+    				<input type="range" name="simpleInterestTime" id="simpleInterestTime"  min="1" max="30" step="1" value="10" data-highlight="true" >
+    				
+
+			</form>
+			<h3 id="simpleInterestResult"></h3>
+			<p>
+                <a href="#home" data-transition="fade" data-role="button"
+                    data-icon="check">Close</a>
+            </p>
+        </div><!-- /content -->
+
+
+    <!-- End page: #SimpleInterest -->

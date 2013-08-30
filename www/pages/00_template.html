@@ -1,0 +1,34 @@
+  <!-- Start page: #two -->
+    
+
+        <div data-role="header" data-theme="b" data-close-btn="none">
+        	<a href="#home" data-rel="page" data-transition="fade" data-role="button" data-theme="b" data-icon="delete" data-iconpos="notext" data-inline="true" class="ui-btn-left">Close</a>
+            <h1>Two</h1>
+            <a href="#TemplateHelp" data-rel="dialog" data-transition="flip" data-role="button" data-theme="b" data-icon="info" data-iconpos="notext" data-inline="true" class="ui-btn-right">Info</a>
+        </div><!-- /header -->
+
+        <div data-role="content" data-theme="c">
+			<form>
+				<label for="tmpprinciple">Principle:</label> <input type="number"
+					data-clear-btn="true" name="tmpprinciple" pattern="[0-9]*"
+					id="tmpprinciple" value="">
+					
+					<label for="tmpsimpleInterestRate">Rate:</label>
+    				<input type="range" name="tmpcompoundInterestRate" id="tmpcompoundInterestRate"  min="0.00" max="20.00" step="0.01" value="5.01" data-highlight="true" >
+										
+					<label for="tmpsimpleInterestTime">Periods:</label>
+    				<input type="range" name="tmpsimpleInterestTime" id="tmpsimpleInterestTime"  min="1" max="30" step="1" value="10" data-highlight="true" >					
+			</form>
+			<h3 id="templateResult"></h3>
+			
+			<p>
+                <a id="capRateReset" data-icon="check" data-role="button">Reset</a>
+            </p>
+			<p>
+                <a href="#home" data-transition="fade" data-role="button"
+                    data-icon="check">Close</a>
+            </p>
+        </div><!-- /content -->
+
+
+    <!-- End page: #two -->

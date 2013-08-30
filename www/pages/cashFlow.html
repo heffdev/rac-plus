@@ -1,0 +1,48 @@
+  <!-- Start page: #CashFlow -->
+    
+
+        <div data-role="header" data-theme="b" data-close-btn="none">
+        	<a href="#home" data-rel="page" data-transition="fade" data-role="button" data-theme="b" data-icon="delete" data-iconpos="notext" data-inline="true" class="ui-btn-left">Close</a>
+            <h1>Two</h1>
+            <a href="#CashFlowHelp" data-rel="dialog" data-transition="flip" data-role="button" data-theme="b" data-icon="info" data-iconpos="notext" data-inline="true" class="ui-btn-right">Info</a>
+        </div><!-- /header -->
+
+        <div data-role="content" data-theme="c">
+			<form>
+				
+				<label for="cashFlowNOI">Net Operating Income:</label> <input type="number"
+					data-clear-btn="true" name="cashFlowNOI" pattern="[0-9]*"
+					id="cashFlowNOI" value="">
+				
+				<label for="cashFlowDebtService">Debt Service:</label> <input type="number"
+					data-clear-btn="true" name="cashFlowDebtService" pattern="[0-9]*"
+					id="cashFlowDebtService" value="">
+				
+				<label for="cashFlowCapitalAdditions">Capital Additions:</label> <input type="number"
+					data-clear-btn="true" name="cashFlowCapitalAdditions" pattern="[0-9]*"
+					id="cashFlowCapitalAdditions" value="">
+				
+				<label for="cashFlowLoanProceeds">Loan Proceeds:</label> <input type="number"
+					data-clear-btn="true" name="cashFlowLoanProceeds" pattern="[0-9]*"
+					id="cashFlowLoanProceeds" value="">
+				
+				<label for="cashFlowInterestEarned">Interest Earned:</label> <input type="number"
+					data-clear-btn="true" name="cashFlowInterestEarned" pattern="[0-9]*"
+					id="cashFlowInterestEarned" value="">
+				
+				<label for="cashFlowTaxLiability">Tax Liability:</label> <input type="number"
+					data-clear-btn="true" name="cashFlowTaxLiability" pattern="[0-9]*"
+					id="cashFlowTaxLiability" value="">
+					
+			</form>
+			<h3 id="cashFlowResult"></h3>
+			
+
+			<p>
+                <a href="#home" data-transition="fade" data-role="button"
+                    data-icon="check">Close</a>
+            </p>
+        </div><!-- /content -->
+
+
+    <!-- End page: #CashFlow -->

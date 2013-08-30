@@ -1,0 +1,20 @@
+body {
+}
+
+@media ( min-width: 15em ) {
+	/* Show the table header rows and set all cells to display: table-cell */
+	.help-breakpoint td,
+	.help-breakpoint th,
+	.help-breakpoint tbody th,
+	.help-breakpoint tbody td,
+	.help-breakpoint thead td,
+	.help-breakpoint thead th {
+		display: table-cell;
+		margin: 0;
+	}
+	/* Hide the labels in each cell */
+	.help-breakpoint td .ui-table-cell-label,
+	.help-breakpoint th .ui-table-cell-label {
+		display: none;
+	}
+}
